@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<head>
+  <title>Nicole's Blog</title>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Amatic+SC&family=Merriweather:wght@400&family=Quicksand&display=swap');
+    header {
+      text-align: center;
+      background: url("https://images.unsplash.com/photo-1470596914251-afb0b4510279?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+      background-position: 55% 70%;
+      background-repeat: no-repeat;
+      color: white;
+    }
+    a {
+      color: white;
+      text-decoration: none;
+    }
+    a:hover {
+      color: #000;
+    }
+    h1 {
+      font-size: 70px;
+      font-family: 'Aboreto', cursive;
+    }
+    h2 {
+      font-size: 25px;
+      font-family: 'Quicksand', sans-serif;
+    }
+    p {
+      font-family: 'Merriweather', serif;
+      text-align: justify;
+    }
+    img {
+      width: 175px;
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(247,141,51,0.5);
+
+    }
+    li {
+      display: inline;
+      padding: 0px 15px 0px 15px;
+      font-family: 'Amatic SC', cursive;
+      font-size: 25px;
+  
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    button {
+      color: white;
+      background-color: rgba(186, 104, 200, 0.5);
+      border: 0;
+      border-radius: 40%;
+      padding: 5px;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 40px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://i.imgur.com/xzDOwxO.jpg">
+    <h1>Nicole's Blog</h1>
+    <ul>
+      <li><a href="#">About Me</a></li>
+      <li><a href="#">Projects</a></li>
+      <li><a href="#">Resume</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>Head nudges meeeeouw</h2>
+    <p>Cough hairball, eat toilet paper. Whatever massacre a bird in the living room and then look like the cutest and most innocent animal on the planet yet weigh eight pounds but take up a full-size bed or stuff and things, meow but stare at imaginary bug. Eat half my food and ask for more. Fall asleep on the washing machine bring your owner a dead bird. Loves cheeseburgers x for hack up furballs so eat owner's food lick left leg for ninety minutes, still dirty. Purr when give birth meow in empty rooms. Lick butt and make a weird face russian blue so meow meow you are my owner so here is a dead rat whenever a door is opened, rush in before the human destroy couch.</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>Dummy text? More like dummy thicc text, amirite?</h2>
+    <p>I'm baby tote bag glossier cloud bread raclette, prism readymade wayfarers knausgaard stumptown plaid helvetica snackwave viral seitan. Pinterest JOMO food truck, literally leggings post-ironic trust fund yes plz gastropub VHS cred. Swag craft beer poutine JOMO keytar synth YOLO copper mug hoodie vape fixie pork belly pour-over man bun. Ennui DSA beard scenester ugh. Tumeric authentic PBR&B chia. Tattooed shaman JOMO, celiac tofu pinterest copper mug gatekeep irony craft beer 90's. Art party la croix hella affogato bespoke af chartreuse kombucha humblebrag taiyaki listicle flexitarian prism fam.</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>Cupcake ipsum dolor sit amet lollipop gummi bears.</h2>
+    <p>Bonbon croissant bonbon shortbread biscuit sweet brownie icing. Pudding cake caramels jelly-o lollipop pudding sesame snaps sweet roll candy canes. Shortbread lemon drops chupa chups sweet macaroon. Danish croissant marzipan sweet danish tiramisu croissant sweet roll. Marzipan pastry sugar plum ice cream chocolate chocolate. Tiramisu sweet roll chupa chups bear claw chocolate bar cupcake chocolate cake jujubes fruitcake.</p>
+    <button>Like</button>
+  </article>
+  <script>
+    $("button").on("click", function() {
+      alert("Clicked!");
+    });
+  </script>
+</body>
